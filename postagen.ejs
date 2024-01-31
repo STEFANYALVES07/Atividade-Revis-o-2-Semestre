@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Pessoal - HOME</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <%- include('../partials/header') %>
+
+<main>
+    <section class="featured-post">
+        <h2>Tipos de cilios</h2>
+        <article>
+            <h3>Volume brasileiro</h3>
+            <p>Esse volume é feito com o fio 'y', aonde acoplamos esse fio tecnologico no fio natural da cliente.</p>
+            
+
+        </article>
+    </section>
+
+    <section class="recent-posts">
+        <article>
+            <h3>Volume rimel</h3>
+            <p>Esse volume nos prporcina naturalidade por ser feito com spikes.</p>
+            
+        </article>
+        <article>
+            <h3>Mega volume</h3>
+            <p>Esse volume é ideal pra quem gosta dos cilios bem pretinhos e preenchidos.</p>
+            
+        </article>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Meu Blog Pessoal</p>
+</footer>
+
+</body>
+</html>
+
+
+
+
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #dd52a3;
+    color: #fff;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.featured-post, .recent-posts {
+    margin-bottom: 30px;
+}
+
+.featured-post h2, .recent-posts h2 {
+    margin-top: 0;
+}
+
+article {
+    background-color: #d6699f67;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+</style>
